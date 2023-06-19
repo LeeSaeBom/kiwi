@@ -1,0 +1,43 @@
+[Local]
+Teacher model : RegNet
+Max accuracy : 91.96%
+Training time : 8:56:58
+
+
+[Server]
+Teacher model : EfficientNet
+Max accuracy : 92.36%
+Training time : 11:30:07
+
+
+-----------------------------------------------
+DeiT I
+
+'deit_tiny_patch16_224',
+'deit_small_patch16_224',
+'deit_base_patch16_224',
+'deit_tiny_distilled_patch16_224',
+'deit_small_distilled_patch16_224',
+'deit_base_distilled_patch16_224',
+'deit_base_patch16_384'
+
+
+DeiT III: Revenge of the ViT
+
+Training data-efficient image transformers &distillation through attention
+Ⅰ Ⅱ
+
+
+deit_tiny_patch16_224
+deit_small_patch16_224
+deit_base_patch16_224
+deit_tiny_distilled_patch16_224
+deit_small_distilled_patch16_224
+deit_base_distilled_patch16_224
+deit_base_patch16_384
+deit_base_distilled_patch16_384
+
+
+[고려해볼 방법들]
+- triplet loss
+- Representation learning
